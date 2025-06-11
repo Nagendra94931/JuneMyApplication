@@ -9,6 +9,10 @@ namespace JuneMyApplication.Controllers
             return View();
         }
 
+        public IActionResult List()
+        {
+            return View();
+        }
 
         public IActionResult Details()
         {
