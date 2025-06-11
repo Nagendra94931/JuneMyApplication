@@ -16,5 +16,10 @@ namespace JuneMyApplication.Controllers
         }
 
 
+        public IActionResult Delete()
+        {
+            return View();
+        }
+
     }
 }
